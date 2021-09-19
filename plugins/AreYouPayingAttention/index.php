@@ -14,7 +14,7 @@ class AreYouPayingAttention
 
     function adminAssets()
     {
-        wp_enqueue_script('ournewBlocktype', plugin_dir_url(__FILE__) . 'test.js', array('wp-blocks'));
+        wp_enqueue_script('ournewBlocktype', plugin_dir_url(__FILE__) . 'test.js', array('wp-blocks','wp-element'));
     }
 }
 
